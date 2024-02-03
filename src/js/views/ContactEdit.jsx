@@ -25,7 +25,7 @@ export const ContactEdit = () => {
             "address": address,
             "phone": phone
         }  // Email, fullname, agenda...(exactos que están en el json)
-        actions.createUser(dataToSend)  
+        actions.editContact(details.id, dataToSend)  
         navigate('/contact'); 
     }
     console.log(details);   

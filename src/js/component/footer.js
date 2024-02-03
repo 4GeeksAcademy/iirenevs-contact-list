@@ -7,4 +7,5 @@ export const Footer = () => (
 			<a href="https://www.linkedin.com/in/irene-vazquez-sanchez-727a662a2/">iirene VS</a>
 		</p>
 	</footer>
+	
 );
